@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AKUStoreManager_Tests' do
+  pod 'AKUStoreManager', :path => '../'
+  
+  
+end
