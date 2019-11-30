@@ -1,0 +1,16 @@
+PODS:
+  - AKUStoreManager (0.1.0)
+
+DEPENDENCIES:
+  - AKUStoreManager (from `../`)
+
+EXTERNAL SOURCES:
+  AKUStoreManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AKUStoreManager: c0acb36337dc52e17a739840cec429852fab0ccd
+
+PODFILE CHECKSUM: fd9a92d0e5597d9a8bd2240645a3f5036df5ac60
+
+COCOAPODS: 1.8.4

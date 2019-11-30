@@ -1,0 +1,6 @@
+framework module AKUStoreManager {
+  umbrella header "AKUStoreManager-umbrella.h"
+
+  export *
+  module * { export * }
+}
