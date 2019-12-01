@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1F39DD6FECA748C6C85C65099ECE5C71 /* Pods-AKUStoreManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5867827BA28D55E4918DF691FF9A1C9 /* Pods-AKUStoreManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BA88E88B23BC58DDCFA063E343B008 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C972A6A20E052493FC14BA9A01430C3 /* ReplaceMe.swift */; };
+		78BA88E88B23BC58DDCFA063E343B008 /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C972A6A20E052493FC14BA9A01430C3 /* DirectoryManager.swift */; };
 		823E4CD14DD24881BAD7FC172E8F9E75 /* AKUStoreManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED8235586A24AA4B1A649B119134D3E /* AKUStoreManager-dummy.m */; };
 		8811870377958D38427707F4C1116896 /* Pods-AKUStoreManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BC9C28517C77FC722B9C48AC5BB349 /* Pods-AKUStoreManager_Tests-dummy.m */; };
 		BC3751A0507C483B70ACF13D231E40A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BD363D1BC84A8B6D8D1048D0A39F9FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0BD363D1BC84A8B6D8D1048D0A39F9FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0EE3FE8184E427FDC808F770B728A4E3 /* AKUStoreManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKUStoreManager-Info.plist"; sourceTree = "<group>"; };
 		13764A0B739138458F2217717F8AB64E /* Pods-AKUStoreManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKUStoreManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		260F2EBA79CE37093D362C75C5EF7D3E /* Pods_AKUStoreManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKUStoreManager_Tests.framework; path = "Pods-AKUStoreManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		260F2EBA79CE37093D362C75C5EF7D3E /* Pods_AKUStoreManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKUStoreManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39D01088D3F2A443FA5B4C51174710ED /* AKUStoreManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKUStoreManager.framework; path = AKUStoreManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C972A6A20E052493FC14BA9A01430C3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = AKUStoreManager/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		39D01088D3F2A443FA5B4C51174710ED /* AKUStoreManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKUStoreManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C972A6A20E052493FC14BA9A01430C3 /* DirectoryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectoryManager.swift; path = AKUStoreManager/Classes/DirectoryManager.swift; sourceTree = "<group>"; };
 		3F24958988485190FA83490F3077F456 /* Pods-AKUStoreManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKUStoreManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42892684C6ACCBB878993B68B04F5F1E /* Pods-AKUStoreManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKUStoreManager_Tests-Info.plist"; sourceTree = "<group>"; };
 		56267616B075058F4DDEC052165E0AD3 /* Pods-AKUStoreManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKUStoreManager_Tests.modulemap"; sourceTree = "<group>"; };
@@ -44,12 +44,12 @@
 		76216B6C5A0A692758A1A1EB44F4354C /* AKUStoreManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKUStoreManager-prefix.pch"; sourceTree = "<group>"; };
 		8554293367DAFB25C37B99C50FD2D5A8 /* AKUStoreManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKUStoreManager.modulemap; sourceTree = "<group>"; };
 		98BC9C28517C77FC722B9C48AC5BB349 /* Pods-AKUStoreManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKUStoreManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADD1D6E21A084CFBD6A2697D4D150CFE /* AKUStoreManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKUStoreManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADD1D6E21A084CFBD6A2697D4D150CFE /* AKUStoreManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AKUStoreManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C03743AE57ABFFE5504CF32B1DACD846 /* Pods-AKUStoreManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKUStoreManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C3BD9D873C86952CCF156D1A82511D92 /* AKUStoreManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKUStoreManager-umbrella.h"; sourceTree = "<group>"; };
 		F5867827BA28D55E4918DF691FF9A1C9 /* Pods-AKUStoreManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKUStoreManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FDC69F1D6F19ECA0E8532B583123921B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		FDC69F1D6F19ECA0E8532B583123921B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +124,7 @@
 		A3CE4D916D1656F0E482E5C98D041CB1 /* AKUStoreManager */ = {
 			isa = PBXGroup;
 			children = (
-				3C972A6A20E052493FC14BA9A01430C3 /* ReplaceMe.swift */,
+				3C972A6A20E052493FC14BA9A01430C3 /* DirectoryManager.swift */,
 				27FBA1405725A175C03CFC8E5834D323 /* Pod */,
 				3F38E053F23DF5C4794C2C7949742873 /* Support Files */,
 			);
@@ -294,7 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				823E4CD14DD24881BAD7FC172E8F9E75 /* AKUStoreManager-dummy.m in Sources */,
-				78BA88E88B23BC58DDCFA063E343B008 /* ReplaceMe.swift in Sources */,
+				78BA88E88B23BC58DDCFA063E343B008 /* DirectoryManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,8 +461,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

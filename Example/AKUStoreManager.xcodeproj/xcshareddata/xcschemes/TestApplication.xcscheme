@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0900"
+   LastUpgradeVersion = "1120"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-               BuildableName = "AKUStoreManager_Example.app"
-               BlueprintName = "AKUStoreManager_Example"
-               ReferencedContainer = "container:AKUStoreManager.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "607FACE41AFB9204008FA782"
-               BuildableName = "AKUStoreManager_Tests.xctest"
-               BlueprintName = "AKUStoreManager_Tests"
+               BlueprintIdentifier = "BE30119A2392C8B900FAD8C1"
+               BuildableName = "TestApplication.app"
+               BlueprintName = "TestApplication"
                ReferencedContainer = "container:AKUStoreManager.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -41,15 +27,6 @@
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "AKUStoreManager_Example.app"
-            BlueprintName = "AKUStoreManager_Example"
-            ReferencedContainer = "container:AKUStoreManager.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <Testables>
          <TestableReference
             skipped = "NO">
@@ -77,9 +54,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "AKUStoreManager_Example.app"
-            BlueprintName = "AKUStoreManager_Example"
+            BlueprintIdentifier = "BE30119A2392C8B900FAD8C1"
+            BuildableName = "TestApplication.app"
+            BlueprintName = "TestApplication"
             ReferencedContainer = "container:AKUStoreManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -94,9 +71,9 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "607FACCF1AFB9204008FA782"
-            BuildableName = "AKUStoreManager_Example.app"
-            BlueprintName = "AKUStoreManager_Example"
+            BlueprintIdentifier = "BE30119A2392C8B900FAD8C1"
+            BuildableName = "TestApplication.app"
+            BlueprintName = "TestApplication"
             ReferencedContainer = "container:AKUStoreManager.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
