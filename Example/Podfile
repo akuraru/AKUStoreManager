@@ -1,6 +1,9 @@
 use_frameworks!
+
+target 'TestApplication' do
+  pod 'AKUStoreManager', :path => '../'
+end
+
 target 'AKUStoreManager_Tests' do
   pod 'AKUStoreManager', :path => '../'
-  
-  
 end

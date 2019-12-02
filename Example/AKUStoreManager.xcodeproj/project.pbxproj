@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7D10BB02960CC42F191D642F /* Pods_TestApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D8C18D8F3F4B665BA3E9FBD /* Pods_TestApplication.framework */; };
 		BE30119E2392C8B900FAD8C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE30119D2392C8B900FAD8C1 /* AppDelegate.swift */; };
 		BE3011A02392C8B900FAD8C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE30119F2392C8B900FAD8C1 /* SceneDelegate.swift */; };
 		BE3011A22392C8B900FAD8C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3011A12392C8B900FAD8C1 /* ContentView.swift */; };
@@ -28,11 +29,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A3AAF9F11EB4090518B8826 /* Pods-TestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApplication.release.xcconfig"; path = "Target Support Files/Pods-TestApplication/Pods-TestApplication.release.xcconfig"; sourceTree = "<group>"; };
 		298C373897D2E1291C2FC08D /* Pods-AKUStoreManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUStoreManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4101B349A20BAF05EB46628A /* Pods-AKUStoreManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUStoreManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		42C6A276DD12CFC862DCF5AD /* Pods-TestApplication.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApplication.test.xcconfig"; path = "Target Support Files/Pods-TestApplication/Pods-TestApplication.test.xcconfig"; sourceTree = "<group>"; };
+		4639E574C8752D4C2259903E /* Pods-TestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestApplication.debug.xcconfig"; path = "Target Support Files/Pods-TestApplication/Pods-TestApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		5D8C18D8F3F4B665BA3E9FBD /* Pods_TestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACE51AFB9204008FA782 /* AKUStoreManager_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AKUStoreManager_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		7C8688C9ABE0AF8FA67E8E10 /* Pods-AKUStoreManager_Tests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AKUStoreManager_Tests.test.xcconfig"; path = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.test.xcconfig"; sourceTree = "<group>"; };
 		BD4564E28F92C7C3D09965F0 /* AKUStoreManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AKUStoreManager.podspec; path = ../AKUStoreManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BDE737ACD6833EA4872B5312 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BE30119B2392C8B900FAD8C1 /* TestApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D10BB02960CC42F191D642F /* Pods_TestApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				C0AC3E6F0A897C7E470C192D /* Pods_AKUStoreManager_Tests.framework */,
+				5D8C18D8F3F4B665BA3E9FBD /* Pods_TestApplication.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +157,10 @@
 			children = (
 				4101B349A20BAF05EB46628A /* Pods-AKUStoreManager_Tests.debug.xcconfig */,
 				298C373897D2E1291C2FC08D /* Pods-AKUStoreManager_Tests.release.xcconfig */,
+				4639E574C8752D4C2259903E /* Pods-TestApplication.debug.xcconfig */,
+				0A3AAF9F11EB4090518B8826 /* Pods-TestApplication.release.xcconfig */,
+				7C8688C9ABE0AF8FA67E8E10 /* Pods-AKUStoreManager_Tests.test.xcconfig */,
+				42C6A276DD12CFC862DCF5AD /* Pods-TestApplication.test.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -180,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BE3011C22392C8BB00FAD8C1 /* Build configuration list for PBXNativeTarget "TestApplication" */;
 			buildPhases = (
+				763BFF41BBD75E324033B5B3 /* [CP] Check Pods Manifest.lock */,
 				BE3011972392C8B900FAD8C1 /* Sources */,
 				BE3011982392C8B900FAD8C1 /* Frameworks */,
 				BE3011992392C8B900FAD8C1 /* Resources */,
+				7F7ECD9596F1CE1656290F3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,6 +270,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		763BFF41BBD75E324033B5B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F7ECD9596F1CE1656290F3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestApplication/Pods-TestApplication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKUStoreManager/AKUStoreManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKUStoreManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestApplication/Pods-TestApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		939068831322154C020FDED5 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -384,11 +438,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -430,10 +486,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -442,20 +500,22 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4101B349A20BAF05EB46628A /* Pods-AKUStoreManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
+					"TEST=1",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TEST";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApplication.app/TestApplication";
 			};
 			name = Debug;
@@ -464,22 +524,24 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 298C373897D2E1291C2FC08D /* Pods-AKUStoreManager_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TEST";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApplication.app/TestApplication";
 			};
 			name = Release;
 		};
 		BE3011C32392C8BB00FAD8C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4639E574C8752D4C2259903E /* Pods-TestApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -504,13 +566,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = akuraru.TestApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		BE3011C42392C8BB00FAD8C1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A3AAF9F11EB4090518B8826 /* Pods-TestApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -532,10 +594,120 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = akuraru.TestApplication;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
+		};
+		BE3011CF2394132F00FAD8C1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
+		};
+		BE3011D02394132F00FAD8C1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C8688C9ABE0AF8FA67E8E10 /* Pods-AKUStoreManager_Tests.test.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"TEST=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestApplication.app/TestApplication";
+			};
+			name = Test;
+		};
+		BE3011D12394132F00FAD8C1 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C6A276DD12CFC862DCF5AD /* Pods-TestApplication.test.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_ASSET_PATHS = "\"TestApplication/Preview Content\"";
+				DEVELOPMENT_TEAM = 99RR93FE65;
+				ENABLE_PREVIEWS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = TestApplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "$(inherited) -D COCOAPODS -D TEST";
+				PRODUCT_BUNDLE_IDENTIFIER = akuraru.TestApplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Test;
 		};
 /* End XCBuildConfiguration section */
 
@@ -544,6 +716,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
+				BE3011CF2394132F00FAD8C1 /* Test */,
 				607FACEE1AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -553,6 +726,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
+				BE3011D02394132F00FAD8C1 /* Test */,
 				607FACF41AFB9204008FA782 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -562,6 +736,7 @@
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BE3011C32392C8BB00FAD8C1 /* Debug */,
+				BE3011D12394132F00FAD8C1 /* Test */,
 				BE3011C42392C8BB00FAD8C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;

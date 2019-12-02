@@ -7,17 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1F39DD6FECA748C6C85C65099ECE5C71 /* Pods-AKUStoreManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5867827BA28D55E4918DF691FF9A1C9 /* Pods-AKUStoreManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BA88E88B23BC58DDCFA063E343B008 /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C972A6A20E052493FC14BA9A01430C3 /* DirectoryManager.swift */; };
-		823E4CD14DD24881BAD7FC172E8F9E75 /* AKUStoreManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ED8235586A24AA4B1A649B119134D3E /* AKUStoreManager-dummy.m */; };
-		8811870377958D38427707F4C1116896 /* Pods-AKUStoreManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98BC9C28517C77FC722B9C48AC5BB349 /* Pods-AKUStoreManager_Tests-dummy.m */; };
-		BC3751A0507C483B70ACF13D231E40A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		D625BF7BD57C76D70F0F4C1A80CEA5BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		E601AA4233197D95798A80D72F6D9817 /* AKUStoreManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3BD9D873C86952CCF156D1A82511D92 /* AKUStoreManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A9513D93DCC171284F257FFBC2A1BC3 /* DirectoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D13CCB4D56D00C02555B08B3ABB904 /* DirectoryManager.swift */; };
+		1FC5910A4DF61143CB6091759D9F22C0 /* Pods-TestApplication-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D99D08003DE93E29CD92563B3DA0F3F9 /* Pods-TestApplication-dummy.m */; };
+		436333C16C71A4895F5981E16454F75D /* AKUStoreManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C370C970869381E1688752EF2D1CB07 /* AKUStoreManager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		653F285A048239CEE29653B61CC889C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		799F674ABE8789DFF6A6A8E1CDB623AF /* Pods-AKUStoreManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC0821263087B41DA217C5140F0D5D /* Pods-AKUStoreManager_Tests-dummy.m */; };
+		8297643FDB4C5A298D6AB39A908F342D /* AKUStoreManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AE251A3FEBE99BDBEFD071F4BBE701F /* AKUStoreManager-dummy.m */; };
+		881D243A53C52D336F9385AF5BA1A682 /* Pods-AKUStoreManager_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2BAD300D317FA9D1271BB1C2BB238AA /* Pods-AKUStoreManager_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		916764A1F6A791334FDA9C6CE78EB1A1 /* Pods-TestApplication-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BE7DF34730F26B7229647CAA0A81C7 /* Pods-TestApplication-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2132E60545E8354DD974B707FF00E49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C95E274FEF3580F6A8292F81D56F17BF /* DirectoryManagerTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7501E039B6B2D84929B4E6F0E3E57 /* DirectoryManagerTester.swift */; };
+		F6442F6C6BB3949134C3335A20068D8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4976CFD6488A195D90AAD8EAB8511F35 /* PBXContainerItemProxy */ = {
+		4D9F108C34752501CAB9192FF291D544 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53AC52A4BDDEE3966D8ED52AEAF0404F;
+			remoteInfo = AKUStoreManager;
+		};
+		B89CF6DC149765E41814ED77096E4AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -27,126 +38,121 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BD363D1BC84A8B6D8D1048D0A39F9FA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		0EE3FE8184E427FDC808F770B728A4E3 /* AKUStoreManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKUStoreManager-Info.plist"; sourceTree = "<group>"; };
-		13764A0B739138458F2217717F8AB64E /* Pods-AKUStoreManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKUStoreManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		260F2EBA79CE37093D362C75C5EF7D3E /* Pods_AKUStoreManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AKUStoreManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		152A69F0BA19F22003533FF5BD89FE25 /* Pods-TestApplication-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestApplication-acknowledgements.plist"; sourceTree = "<group>"; };
+		2509E96C691F1B90BD52C3C0A8B702E1 /* AKUStoreManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKUStoreManager.modulemap; sourceTree = "<group>"; };
+		260F2EBA79CE37093D362C75C5EF7D3E /* Pods_AKUStoreManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AKUStoreManager_Tests.framework; path = "Pods-AKUStoreManager_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31D7501E039B6B2D84929B4E6F0E3E57 /* DirectoryManagerTester.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectoryManagerTester.swift; path = AKUStoreManager/Classes/DirectoryManagerTester.swift; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39D01088D3F2A443FA5B4C51174710ED /* AKUStoreManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AKUStoreManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C972A6A20E052493FC14BA9A01430C3 /* DirectoryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectoryManager.swift; path = AKUStoreManager/Classes/DirectoryManager.swift; sourceTree = "<group>"; };
-		3F24958988485190FA83490F3077F456 /* Pods-AKUStoreManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKUStoreManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42892684C6ACCBB878993B68B04F5F1E /* Pods-AKUStoreManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKUStoreManager_Tests-Info.plist"; sourceTree = "<group>"; };
-		56267616B075058F4DDEC052165E0AD3 /* Pods-AKUStoreManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKUStoreManager_Tests.modulemap"; sourceTree = "<group>"; };
-		570907E4D22158ABFB934F07F1F4243E /* Pods-AKUStoreManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKUStoreManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5B12697A463E259BA5B244C4EBBDB38D /* AKUStoreManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKUStoreManager.xcconfig; sourceTree = "<group>"; };
-		5F7A85DC6C572A9388759962804CC259 /* Pods-AKUStoreManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKUStoreManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6ED8235586A24AA4B1A649B119134D3E /* AKUStoreManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKUStoreManager-dummy.m"; sourceTree = "<group>"; };
-		76216B6C5A0A692758A1A1EB44F4354C /* AKUStoreManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKUStoreManager-prefix.pch"; sourceTree = "<group>"; };
-		8554293367DAFB25C37B99C50FD2D5A8 /* AKUStoreManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AKUStoreManager.modulemap; sourceTree = "<group>"; };
-		98BC9C28517C77FC722B9C48AC5BB349 /* Pods-AKUStoreManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKUStoreManager_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ADD1D6E21A084CFBD6A2697D4D150CFE /* AKUStoreManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AKUStoreManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C03743AE57ABFFE5504CF32B1DACD846 /* Pods-AKUStoreManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKUStoreManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C3BD9D873C86952CCF156D1A82511D92 /* AKUStoreManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKUStoreManager-umbrella.h"; sourceTree = "<group>"; };
-		F5867827BA28D55E4918DF691FF9A1C9 /* Pods-AKUStoreManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKUStoreManager_Tests-umbrella.h"; sourceTree = "<group>"; };
-		FDC69F1D6F19ECA0E8532B583123921B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		37BE7DF34730F26B7229647CAA0A81C7 /* Pods-TestApplication-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestApplication-umbrella.h"; sourceTree = "<group>"; };
+		39D01088D3F2A443FA5B4C51174710ED /* AKUStoreManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AKUStoreManager.framework; path = AKUStoreManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42BEC7528A47C9C5783266754BE7E054 /* AKUStoreManager-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AKUStoreManager-Info.plist"; sourceTree = "<group>"; };
+		4D767A8494959D8F520F1FFE3DD6A381 /* Pods-AKUStoreManager_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AKUStoreManager_Tests.modulemap"; sourceTree = "<group>"; };
+		5ABCF9A4579754C9A6F15C72EC7485EB /* Pods-AKUStoreManager_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKUStoreManager_Tests-Info.plist"; sourceTree = "<group>"; };
+		5E13903902DF24490017F6906AD0A385 /* AKUStoreManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKUStoreManager-prefix.pch"; sourceTree = "<group>"; };
+		5E1E333C4CB2F4A15FC16C3BDBAC6111 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5EA26E21BF68C4796F5427964E5E56BE /* Pods-AKUStoreManager_Tests.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKUStoreManager_Tests.test.xcconfig"; sourceTree = "<group>"; };
+		6D3CCD1B3A71C48F497D4AC4379E1780 /* Pods-TestApplication.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestApplication.modulemap"; sourceTree = "<group>"; };
+		7C370C970869381E1688752EF2D1CB07 /* AKUStoreManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AKUStoreManager-umbrella.h"; sourceTree = "<group>"; };
+		7DBC0821263087B41DA217C5140F0D5D /* Pods-AKUStoreManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AKUStoreManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		8454A24911D685A32F33577B913C9754 /* Pods-TestApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		8AE251A3FEBE99BDBEFD071F4BBE701F /* AKUStoreManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AKUStoreManager-dummy.m"; sourceTree = "<group>"; };
+		8B075CA53091CACB97CA1EC16B1B8CAC /* Pods_TestApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestApplication.framework; path = "Pods-TestApplication.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF823D4F2C14CBFB9708A67A3296FCF /* Pods-TestApplication-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestApplication-acknowledgements.markdown"; sourceTree = "<group>"; };
+		905993AC1D2C2BF96B28B6A9CF19C3CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9BF70151A08D7E9700D24E9DAD4BA67E /* Pods-AKUStoreManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKUStoreManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AD86B094D750D3683EF0A6FF147CE02D /* Pods-TestApplication-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestApplication-Info.plist"; sourceTree = "<group>"; };
+		C61C0C962219EA998DD7A41CAA48A3B5 /* Pods-TestApplication.test.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApplication.test.xcconfig"; sourceTree = "<group>"; };
+		C6486B3B4033E194D999A157C07C0175 /* Pods-AKUStoreManager_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AKUStoreManager_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CB3FC239C3637A2BEE131587D37C1797 /* AKUStoreManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AKUStoreManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D3D0F7BFB6286A8313985A27881DD6DD /* AKUStoreManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AKUStoreManager.xcconfig; sourceTree = "<group>"; };
+		D53350AFED09442DF0F381E657C31D38 /* Pods-AKUStoreManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AKUStoreManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D99D08003DE93E29CD92563B3DA0F3F9 /* Pods-TestApplication-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestApplication-dummy.m"; sourceTree = "<group>"; };
+		DCBF4492564C9FC525E9B52303001EE1 /* Pods-AKUStoreManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AKUStoreManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E0F4F1D2CE95A773F7C83681A3AD8179 /* Pods-TestApplication-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestApplication-frameworks.sh"; sourceTree = "<group>"; };
+		E2BAD300D317FA9D1271BB1C2BB238AA /* Pods-AKUStoreManager_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AKUStoreManager_Tests-umbrella.h"; sourceTree = "<group>"; };
+		EEDCA36019DB957DB63E82F7E13C1036 /* Pods-AKUStoreManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AKUStoreManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F5D13CCB4D56D00C02555B08B3ABB904 /* DirectoryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirectoryManager.swift; path = AKUStoreManager/Classes/DirectoryManager.swift; sourceTree = "<group>"; };
+		F865186C87DE7FC78ED9EBC59143F787 /* Pods-TestApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestApplication.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		369A299552B98CCBE8BD6C1D1CD9C353 /* Frameworks */ = {
+		0DC80CF9EEBA1025160E0F31BEE54394 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC3751A0507C483B70ACF13D231E40A6 /* Foundation.framework in Frameworks */,
+				653F285A048239CEE29653B61CC889C1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC01ABCCDCDC4C83C70DD41F312AC46E /* Frameworks */ = {
+		A372CDD5B92011FBF6F170EB14D31DEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D625BF7BD57C76D70F0F4C1A80CEA5BB /* Foundation.framework in Frameworks */,
+				F6442F6C6BB3949134C3335A20068D8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89C47B14526E325F2D704B99F89EF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2132E60545E8354DD974B707FF00E49 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		27FBA1405725A175C03CFC8E5834D323 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				ADD1D6E21A084CFBD6A2697D4D150CFE /* AKUStoreManager.podspec */,
-				FDC69F1D6F19ECA0E8532B583123921B /* LICENSE */,
-				0BD363D1BC84A8B6D8D1048D0A39F9FA /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		3F38E053F23DF5C4794C2C7949742873 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8554293367DAFB25C37B99C50FD2D5A8 /* AKUStoreManager.modulemap */,
-				5B12697A463E259BA5B244C4EBBDB38D /* AKUStoreManager.xcconfig */,
-				6ED8235586A24AA4B1A649B119134D3E /* AKUStoreManager-dummy.m */,
-				0EE3FE8184E427FDC808F770B728A4E3 /* AKUStoreManager-Info.plist */,
-				76216B6C5A0A692758A1A1EB44F4354C /* AKUStoreManager-prefix.pch */,
-				C3BD9D873C86952CCF156D1A82511D92 /* AKUStoreManager-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AKUStoreManager";
-			sourceTree = "<group>";
-		};
-		66060D3AAC6F42F62F6AB12EF64A072F /* Products */ = {
+		0492511EAE78EAF0B51FFE547EF08F12 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				39D01088D3F2A443FA5B4C51174710ED /* AKUStoreManager.framework */,
 				260F2EBA79CE37093D362C75C5EF7D3E /* Pods_AKUStoreManager_Tests.framework */,
+				8B075CA53091CACB97CA1EC16B1B8CAC /* Pods_TestApplication.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6BBF2B15EA8E9E8AF2D6CFEE2546D7A6 /* Development Pods */ = {
+		4D8BCB3905BEA7A7612B3D4C6E9572F1 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A3CE4D916D1656F0E482E5C98D041CB1 /* AKUStoreManager */,
+				DC4EE79BE45B64A67CBB6F6C8562BF16 /* AKUStoreManager */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		738EA69DF6869A85721F9A728F39F2D3 /* Targets Support Files */ = {
+		548FE16114698D77C127E3546DE11BD9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A4834EBCEA5A974F453316D4FA7544D8 /* Pods-AKUStoreManager_Tests */,
+				C1A329C6C509E77E4BE6F3FE5E78D43F /* Pods-AKUStoreManager_Tests */,
+				EA6919C1EEABA5F7757D81A9C5D307A8 /* Pods-TestApplication */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		A3CE4D916D1656F0E482E5C98D041CB1 /* AKUStoreManager */ = {
+		628CDE22443A6B981749291F16C92605 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3C972A6A20E052493FC14BA9A01430C3 /* DirectoryManager.swift */,
-				27FBA1405725A175C03CFC8E5834D323 /* Pod */,
-				3F38E053F23DF5C4794C2C7949742873 /* Support Files */,
+				CB3FC239C3637A2BEE131587D37C1797 /* AKUStoreManager.podspec */,
+				905993AC1D2C2BF96B28B6A9CF19C3CF /* LICENSE */,
+				5E1E333C4CB2F4A15FC16C3BDBAC6111 /* README.md */,
 			);
-			name = AKUStoreManager;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		A4834EBCEA5A974F453316D4FA7544D8 /* Pods-AKUStoreManager_Tests */ = {
+		81F1489E623B50C1975D42A89E41F564 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				56267616B075058F4DDEC052165E0AD3 /* Pods-AKUStoreManager_Tests.modulemap */,
-				3F24958988485190FA83490F3077F456 /* Pods-AKUStoreManager_Tests-acknowledgements.markdown */,
-				C03743AE57ABFFE5504CF32B1DACD846 /* Pods-AKUStoreManager_Tests-acknowledgements.plist */,
-				98BC9C28517C77FC722B9C48AC5BB349 /* Pods-AKUStoreManager_Tests-dummy.m */,
-				13764A0B739138458F2217717F8AB64E /* Pods-AKUStoreManager_Tests-frameworks.sh */,
-				42892684C6ACCBB878993B68B04F5F1E /* Pods-AKUStoreManager_Tests-Info.plist */,
-				F5867827BA28D55E4918DF691FF9A1C9 /* Pods-AKUStoreManager_Tests-umbrella.h */,
-				5F7A85DC6C572A9388759962804CC259 /* Pods-AKUStoreManager_Tests.debug.xcconfig */,
-				570907E4D22158ABFB934F07F1F4243E /* Pods-AKUStoreManager_Tests.release.xcconfig */,
+				2509E96C691F1B90BD52C3C0A8B702E1 /* AKUStoreManager.modulemap */,
+				D3D0F7BFB6286A8313985A27881DD6DD /* AKUStoreManager.xcconfig */,
+				8AE251A3FEBE99BDBEFD071F4BBE701F /* AKUStoreManager-dummy.m */,
+				42BEC7528A47C9C5783266754BE7E054 /* AKUStoreManager-Info.plist */,
+				5E13903902DF24490017F6906AD0A385 /* AKUStoreManager-prefix.pch */,
+				7C370C970869381E1688752EF2D1CB07 /* AKUStoreManager-umbrella.h */,
 			);
-			name = "Pods-AKUStoreManager_Tests";
-			path = "Target Support Files/Pods-AKUStoreManager_Tests";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AKUStoreManager";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -157,14 +163,32 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C1A329C6C509E77E4BE6F3FE5E78D43F /* Pods-AKUStoreManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4D767A8494959D8F520F1FFE3DD6A381 /* Pods-AKUStoreManager_Tests.modulemap */,
+				EEDCA36019DB957DB63E82F7E13C1036 /* Pods-AKUStoreManager_Tests-acknowledgements.markdown */,
+				D53350AFED09442DF0F381E657C31D38 /* Pods-AKUStoreManager_Tests-acknowledgements.plist */,
+				7DBC0821263087B41DA217C5140F0D5D /* Pods-AKUStoreManager_Tests-dummy.m */,
+				C6486B3B4033E194D999A157C07C0175 /* Pods-AKUStoreManager_Tests-frameworks.sh */,
+				5ABCF9A4579754C9A6F15C72EC7485EB /* Pods-AKUStoreManager_Tests-Info.plist */,
+				E2BAD300D317FA9D1271BB1C2BB238AA /* Pods-AKUStoreManager_Tests-umbrella.h */,
+				9BF70151A08D7E9700D24E9DAD4BA67E /* Pods-AKUStoreManager_Tests.debug.xcconfig */,
+				DCBF4492564C9FC525E9B52303001EE1 /* Pods-AKUStoreManager_Tests.release.xcconfig */,
+				5EA26E21BF68C4796F5427964E5E56BE /* Pods-AKUStoreManager_Tests.test.xcconfig */,
+			);
+			name = "Pods-AKUStoreManager_Tests";
+			path = "Target Support Files/Pods-AKUStoreManager_Tests";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6BBF2B15EA8E9E8AF2D6CFEE2546D7A6 /* Development Pods */,
+				4D8BCB3905BEA7A7612B3D4C6E9572F1 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				66060D3AAC6F42F62F6AB12EF64A072F /* Products */,
-				738EA69DF6869A85721F9A728F39F2D3 /* Targets Support Files */,
+				0492511EAE78EAF0B51FFE547EF08F12 /* Products */,
+				548FE16114698D77C127E3546DE11BD9 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,22 +200,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DC4EE79BE45B64A67CBB6F6C8562BF16 /* AKUStoreManager */ = {
+			isa = PBXGroup;
+			children = (
+				F5D13CCB4D56D00C02555B08B3ABB904 /* DirectoryManager.swift */,
+				31D7501E039B6B2D84929B4E6F0E3E57 /* DirectoryManagerTester.swift */,
+				628CDE22443A6B981749291F16C92605 /* Pod */,
+				81F1489E623B50C1975D42A89E41F564 /* Support Files */,
+			);
+			name = AKUStoreManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EA6919C1EEABA5F7757D81A9C5D307A8 /* Pods-TestApplication */ = {
+			isa = PBXGroup;
+			children = (
+				6D3CCD1B3A71C48F497D4AC4379E1780 /* Pods-TestApplication.modulemap */,
+				8DF823D4F2C14CBFB9708A67A3296FCF /* Pods-TestApplication-acknowledgements.markdown */,
+				152A69F0BA19F22003533FF5BD89FE25 /* Pods-TestApplication-acknowledgements.plist */,
+				D99D08003DE93E29CD92563B3DA0F3F9 /* Pods-TestApplication-dummy.m */,
+				E0F4F1D2CE95A773F7C83681A3AD8179 /* Pods-TestApplication-frameworks.sh */,
+				AD86B094D750D3683EF0A6FF147CE02D /* Pods-TestApplication-Info.plist */,
+				37BE7DF34730F26B7229647CAA0A81C7 /* Pods-TestApplication-umbrella.h */,
+				8454A24911D685A32F33577B913C9754 /* Pods-TestApplication.debug.xcconfig */,
+				F865186C87DE7FC78ED9EBC59143F787 /* Pods-TestApplication.release.xcconfig */,
+				C61C0C962219EA998DD7A41CAA48A3B5 /* Pods-TestApplication.test.xcconfig */,
+			);
+			name = "Pods-TestApplication";
+			path = "Target Support Files/Pods-TestApplication";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1E97945505FC9000CAC29046668DEFED /* Headers */ = {
+		513DB88164823C85D3F65B9271DFD8C6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E601AA4233197D95798A80D72F6D9817 /* AKUStoreManager-umbrella.h in Headers */,
+				436333C16C71A4895F5981E16454F75D /* AKUStoreManager-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC30295566CD5A27B078479AF39BB4CF /* Headers */ = {
+		9C1C189590CFDD89603BBF27CACB8A95 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F39DD6FECA748C6C85C65099ECE5C71 /* Pods-AKUStoreManager_Tests-umbrella.h in Headers */,
+				916764A1F6A791334FDA9C6CE78EB1A1 /* Pods-TestApplication-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CABB98FA289AF301F1AA7138C0ABE2A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				881D243A53C52D336F9385AF5BA1A682 /* Pods-AKUStoreManager_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,17 +262,17 @@
 /* Begin PBXNativeTarget section */
 		45A53731F0C65501137F2358DEF64A38 /* Pods-AKUStoreManager_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6F83F48C95EEBC4107D70CF9123DE7E /* Build configuration list for PBXNativeTarget "Pods-AKUStoreManager_Tests" */;
+			buildConfigurationList = 658491CEAB0A1E340CCB3CA933AD95F8 /* Build configuration list for PBXNativeTarget "Pods-AKUStoreManager_Tests" */;
 			buildPhases = (
-				DC30295566CD5A27B078479AF39BB4CF /* Headers */,
-				1E2857E10B268B6D53D199269FB7425B /* Sources */,
-				AC01ABCCDCDC4C83C70DD41F312AC46E /* Frameworks */,
-				3AD767BB683D0262F731FC70F9EE74D4 /* Resources */,
+				CABB98FA289AF301F1AA7138C0ABE2A1 /* Headers */,
+				5E6AFB944D82D286D79B64B76AC6BF91 /* Sources */,
+				A372CDD5B92011FBF6F170EB14D31DEE /* Frameworks */,
+				02CB2CC8F5BC2831E40C9204DCA7B06E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5EA7E8FC3DB4F00836859CEDDCD82501 /* PBXTargetDependency */,
+				E221BAA2A98F95F5F98A4829DA6E445B /* PBXTargetDependency */,
 			);
 			name = "Pods-AKUStoreManager_Tests";
 			productName = "Pods-AKUStoreManager_Tests";
@@ -219,12 +281,12 @@
 		};
 		53AC52A4BDDEE3966D8ED52AEAF0404F /* AKUStoreManager */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C095049C26591FFDC39ABF8E996BB09D /* Build configuration list for PBXNativeTarget "AKUStoreManager" */;
+			buildConfigurationList = 96C75056AA2599074C02CDA3B2DE3868 /* Build configuration list for PBXNativeTarget "AKUStoreManager" */;
 			buildPhases = (
-				1E97945505FC9000CAC29046668DEFED /* Headers */,
-				4AC9CEEF7C0051216DD79A08CBCFD027 /* Sources */,
-				369A299552B98CCBE8BD6C1D1CD9C353 /* Frameworks */,
-				1918B7F1EA7DE509A02D1B2980DD0C44 /* Resources */,
+				513DB88164823C85D3F65B9271DFD8C6 /* Headers */,
+				B706EC455DEEB2FBD0DA5DE87AE39504 /* Sources */,
+				C89C47B14526E325F2D704B99F89EF7F /* Frameworks */,
+				9A3DE5931C2EF29CD88C19E77A7C5497 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +295,25 @@
 			name = AKUStoreManager;
 			productName = AKUStoreManager;
 			productReference = 39D01088D3F2A443FA5B4C51174710ED /* AKUStoreManager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		847B6D40CFA89C55F0587E1F1625AB4F /* Pods-TestApplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DDDB9D67FD29195C1155D60AF3D666F /* Build configuration list for PBXNativeTarget "Pods-TestApplication" */;
+			buildPhases = (
+				9C1C189590CFDD89603BBF27CACB8A95 /* Headers */,
+				100A3D1DBE32B9B962B0A8E471F22239 /* Sources */,
+				0DC80CF9EEBA1025160E0F31BEE54394 /* Frameworks */,
+				EB4784FB3BAF717E1E4F84C924BE0C45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4610CD81B71FA42E9BEB1F1B009FABB1 /* PBXTargetDependency */,
+			);
+			name = "Pods-TestApplication";
+			productName = "Pods-TestApplication";
+			productReference = 8B075CA53091CACB97CA1EC16B1B8CAC /* Pods_TestApplication.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -253,25 +334,33 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 66060D3AAC6F42F62F6AB12EF64A072F /* Products */;
+			productRefGroup = 0492511EAE78EAF0B51FFE547EF08F12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				53AC52A4BDDEE3966D8ED52AEAF0404F /* AKUStoreManager */,
 				45A53731F0C65501137F2358DEF64A38 /* Pods-AKUStoreManager_Tests */,
+				847B6D40CFA89C55F0587E1F1625AB4F /* Pods-TestApplication */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1918B7F1EA7DE509A02D1B2980DD0C44 /* Resources */ = {
+		02CB2CC8F5BC2831E40C9204DCA7B06E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AD767BB683D0262F731FC70F9EE74D4 /* Resources */ = {
+		9A3DE5931C2EF29CD88C19E77A7C5497 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB4784FB3BAF717E1E4F84C924BE0C45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -281,40 +370,195 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1E2857E10B268B6D53D199269FB7425B /* Sources */ = {
+		100A3D1DBE32B9B962B0A8E471F22239 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8811870377958D38427707F4C1116896 /* Pods-AKUStoreManager_Tests-dummy.m in Sources */,
+				1FC5910A4DF61143CB6091759D9F22C0 /* Pods-TestApplication-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AC9CEEF7C0051216DD79A08CBCFD027 /* Sources */ = {
+		5E6AFB944D82D286D79B64B76AC6BF91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823E4CD14DD24881BAD7FC172E8F9E75 /* AKUStoreManager-dummy.m in Sources */,
-				78BA88E88B23BC58DDCFA063E343B008 /* DirectoryManager.swift in Sources */,
+				799F674ABE8789DFF6A6A8E1CDB623AF /* Pods-AKUStoreManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B706EC455DEEB2FBD0DA5DE87AE39504 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8297643FDB4C5A298D6AB39A908F342D /* AKUStoreManager-dummy.m in Sources */,
+				1A9513D93DCC171284F257FFBC2A1BC3 /* DirectoryManager.swift in Sources */,
+				C95E274FEF3580F6A8292F81D56F17BF /* DirectoryManagerTester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5EA7E8FC3DB4F00836859CEDDCD82501 /* PBXTargetDependency */ = {
+		4610CD81B71FA42E9BEB1F1B009FABB1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AKUStoreManager;
 			target = 53AC52A4BDDEE3966D8ED52AEAF0404F /* AKUStoreManager */;
-			targetProxy = 4976CFD6488A195D90AAD8EAB8511F35 /* PBXContainerItemProxy */;
+			targetProxy = 4D9F108C34752501CAB9192FF291D544 /* PBXContainerItemProxy */;
+		};
+		E221BAA2A98F95F5F98A4829DA6E445B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AKUStoreManager;
+			target = 53AC52A4BDDEE3966D8ED52AEAF0404F /* AKUStoreManager */;
+			targetProxy = B89CF6DC149765E41814ED77096E4AA8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		193610741053C13C0955F46BB7F0389E /* Release */ = {
+		06A3B0B935D3224BBA5CF90FB8FC25B9 /* Test */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 570907E4D22158ABFB934F07F1F4243E /* Pods-AKUStoreManager_Tests.release.xcconfig */;
+			baseConfigurationReference = C61C0C962219EA998DD7A41CAA48A3B5 /* Pods-TestApplication.test.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestApplication/Pods-TestApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestApplication/Pods-TestApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Test;
+		};
+		4D2266F5F7B20C16E9F1C939710097C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D0F7BFB6286A8313985A27881DD6DD /* AKUStoreManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKUStoreManager/AKUStoreManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager.modulemap";
+				PRODUCT_MODULE_NAME = AKUStoreManager;
+				PRODUCT_NAME = AKUStoreManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71AEBF1F88AE217F944C52E14008DA4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8454A24911D685A32F33577B913C9754 /* Pods-TestApplication.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestApplication/Pods-TestApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestApplication/Pods-TestApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		801BB6C26BC9BF8CDDEF9808AC04B1C0 /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D0F7BFB6286A8313985A27881DD6DD /* AKUStoreManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AKUStoreManager/AKUStoreManager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager.modulemap";
+				PRODUCT_MODULE_NAME = AKUStoreManager;
+				PRODUCT_NAME = AKUStoreManager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Test;
+		};
+		91F498DA82380B548366D5A102DB423F /* Test */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EA26E21BF68C4796F5427964E5E56BE /* Pods-AKUStoreManager_Tests.test.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -326,7 +570,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.modulemap";
@@ -342,132 +586,9 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Test;
 		};
-		2745B58E214CA95DE2D7B71B36D17EEA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B12697A463E259BA5B244C4EBBDB38D /* AKUStoreManager.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AKUStoreManager/AKUStoreManager-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager.modulemap";
-				PRODUCT_MODULE_NAME = AKUStoreManager;
-				PRODUCT_NAME = AKUStoreManager;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		473CE1D74CFB828A2EB9A5F3A63E0DA6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F7A85DC6C572A9388759962804CC259 /* Pods-AKUStoreManager_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -518,7 +639,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -531,10 +652,83 @@
 			};
 			name = Debug;
 		};
-		CF4CBA3E3546A4884284C8D141B40ADE /* Release */ = {
+		A34D261C29D91C8E50DC4F7416248928 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B12697A463E259BA5B244C4EBBDB38D /* AKUStoreManager.xcconfig */;
+			baseConfigurationReference = 9BF70151A08D7E9700D24E9DAD4BA67E /* Pods-AKUStoreManager_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C99DEFC8459B9C367416A539E2114134 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBF4492564C9FC525E9B52303001EE1 /* Pods-AKUStoreManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA5644F980E2730511B15F31F86A988A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3D0F7BFB6286A8313985A27881DD6DD /* AKUStoreManager.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -547,7 +741,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/AKUStoreManager/AKUStoreManager-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AKUStoreManager/AKUStoreManager.modulemap";
 				PRODUCT_MODULE_NAME = AKUStoreManager;
@@ -555,7 +749,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -563,32 +757,201 @@
 			};
 			name = Release;
 		};
+		D65825C925450A2B14728CF1FF956A2E /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_TEST=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Test;
+		};
+		E68B04E561B0EFD4E0201B1856C38069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F865186C87DE7FC78ED9EBC59143F787 /* Pods-TestApplication.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestApplication/Pods-TestApplication-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestApplication/Pods-TestApplication.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2DDDB9D67FD29195C1155D60AF3D666F /* Build configuration list for PBXNativeTarget "Pods-TestApplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AEBF1F88AE217F944C52E14008DA4B /* Debug */,
+				E68B04E561B0EFD4E0201B1856C38069 /* Release */,
+				06A3B0B935D3224BBA5CF90FB8FC25B9 /* Test */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+				D65825C925450A2B14728CF1FF956A2E /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C095049C26591FFDC39ABF8E996BB09D /* Build configuration list for PBXNativeTarget "AKUStoreManager" */ = {
+		658491CEAB0A1E340CCB3CA933AD95F8 /* Build configuration list for PBXNativeTarget "Pods-AKUStoreManager_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2745B58E214CA95DE2D7B71B36D17EEA /* Debug */,
-				CF4CBA3E3546A4884284C8D141B40ADE /* Release */,
+				A34D261C29D91C8E50DC4F7416248928 /* Debug */,
+				C99DEFC8459B9C367416A539E2114134 /* Release */,
+				91F498DA82380B548366D5A102DB423F /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6F83F48C95EEBC4107D70CF9123DE7E /* Build configuration list for PBXNativeTarget "Pods-AKUStoreManager_Tests" */ = {
+		96C75056AA2599074C02CDA3B2DE3868 /* Build configuration list for PBXNativeTarget "AKUStoreManager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				473CE1D74CFB828A2EB9A5F3A63E0DA6 /* Debug */,
-				193610741053C13C0955F46BB7F0389E /* Release */,
+				4D2266F5F7B20C16E9F1C939710097C4 /* Debug */,
+				CA5644F980E2730511B15F31F86A988A /* Release */,
+				801BB6C26BC9BF8CDDEF9808AC04B1C0 /* Test */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

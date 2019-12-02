@@ -7,11 +7,21 @@
 //
 
 import UIKit
+import AKUStoreManager
 
+protocol AppDelegate {
+    var directoryManager: DirectoryManager { get set }
+}
+
+#if TEST
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+class AppDelegateTest: UIResponder, UIApplicationDelegate, AppDelegate {
+    var directoryManager: DirectoryManager = DirectoryManagerTester()
+}
+#else
+@UIApplicationMain
+class AppDelegateImp: UIResponder, UIApplicationDelegate, AppDelegate {
+    var directoryManager: DirectoryManager = DirectoryManagerImp()
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -34,4 +44,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-
+#endif

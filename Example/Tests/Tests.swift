@@ -1,11 +1,14 @@
 import XCTest
 import AKUStoreManager
+@testable import TestApplication
 
 class Tests: XCTestCase {
+    var delegate: AppDelegate!
     
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        delegate = UIApplication.shared.delegate as? AppDelegate
     }
     
     override func tearDown() {
@@ -13,7 +16,15 @@ class Tests: XCTestCase {
         super.tearDown()
     }
     
+    func testHaveHomeDirecory() {
+        XCTAssertNotNil(delegate.directoryManager.homeDirectory())
+    }
+    func testHaveTemporaryDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.temporaryDirectory())
+    }
+    
     func testExample() {
+        
         let searchPathDirectories: [FileManager.SearchPathDirectory] =  [
             .applicationDirectory,
             .demoApplicationDirectory,
