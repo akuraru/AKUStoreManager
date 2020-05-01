@@ -9,27 +9,20 @@
 Pod::Spec.new do |s|
   s.name             = 'AKUStoreManager'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of AKUStoreManager.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.summary          = 'AKUStoreManager is Testable file manager.'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    AKUStoreManager is Testable file manager.
+    DirectoryManager is assign to test directory during testing.
                        DESC
-
   s.homepage         = 'https://github.com/akuraru/AKUStoreManager'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'akuraru' => 'akuraru@gmail.com' }
   s.source           = { :git => 'https://github.com/akuraru/AKUStoreManager.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/akuraru'
 
   s.ios.deployment_target = '12.0'
   s.default_subspec = 'Core'
+  s.swift_version = '5.2'
 
   s.subspec 'Core' do |a|
     a.source_files = 'AKUStoreManager/Classes/DirectoryManager.swift'
