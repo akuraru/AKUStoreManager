@@ -1,16 +1,21 @@
 PODS:
-  - AKUStoreManager (0.1.0)
+  - AKUStoreManager (0.1.0):
+    - AKUStoreManager/Core (= 0.1.0)
+  - AKUStoreManager/Core (0.1.0)
+  - AKUStoreManager/Tester (0.1.0):
+    - AKUStoreManager/Core
 
 DEPENDENCIES:
   - AKUStoreManager (from `../`)
+  - AKUStoreManager/Tester (from `../`)
 
 EXTERNAL SOURCES:
   AKUStoreManager:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AKUStoreManager: ce1f9818d3065bf092001c0f78741282bb99527d
+  AKUStoreManager: e678e1e7308d015356dda2b189f45c436de63841
 
-PODFILE CHECKSUM: a7b85b2443e33bccbc457764cf11bb6cd157102b
+PODFILE CHECKSUM: 165225ba5127eea9e7027150a27042c98bc08efa
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.9.1

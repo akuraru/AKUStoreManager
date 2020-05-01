@@ -18,7 +18,7 @@ public protocol DirectoryManager {
 
     func developerDirectory() -> URL
     func developerApplicationDirectory() -> URL
-    
+
     func desktopDirectory() -> URL
     func downloadsDirectory() -> URL
     func moviesDirectory() -> URL
@@ -28,8 +28,8 @@ public protocol DirectoryManager {
 }
 
 public struct DirectoryManagerImp: DirectoryManager {
-    public init() { }
-    
+    public init() {}
+
     public func homeDirectory() -> URL {
         return URL(fileURLWithPath: NSHomeDirectory())
     }
@@ -79,7 +79,7 @@ public struct DirectoryManagerImp: DirectoryManager {
     public func developerApplicationDirectory() -> URL {
         return FileManager().urls(for: .developerApplicationDirectory, in: .userDomainMask).first!
     }
-    
+
     public func desktopDirectory() -> URL {
         return FileManager().urls(for: .desktopDirectory, in: .userDomainMask).first!
     }

@@ -1,83 +1,110 @@
-import XCTest
 import AKUStoreManager
+import XCTest
+
 @testable import TestApplication
 
 class Tests: XCTestCase {
     var delegate: AppDelegate!
-    
+
     override func setUp() {
         super.setUp()
-        
+
         delegate = UIApplication.shared.delegate as? AppDelegate
     }
-    
+
     override func tearDown() {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
-    
+
     func testHaveHomeDirecory() {
         XCTAssertNotNil(delegate.directoryManager.homeDirectory())
     }
     func testHaveTemporaryDirectory() {
         XCTAssertNotNil(delegate.directoryManager.temporaryDirectory())
     }
-    
-    func testExample() {
-        
-        let searchPathDirectories: [FileManager.SearchPathDirectory] =  [
-            .applicationDirectory,
-            .demoApplicationDirectory,
-            .developerApplicationDirectory,
-            .adminApplicationDirectory,
-            .libraryDirectory,
-            .developerDirectory,
-            .userDirectory,
-            .documentationDirectory,
-            .documentDirectory,
-            .coreServiceDirectory,
-            .autosavedInformationDirectory,
-            .desktopDirectory,
-            .cachesDirectory,
-            .applicationSupportDirectory,
-            .downloadsDirectory,
-            .inputMethodsDirectory,
-            .moviesDirectory,
-            .musicDirectory,
-            .picturesDirectory,
-            .printerDescriptionDirectory,
-            .sharedPublicDirectory,
-            .preferencePanesDirectory,
-            .itemReplacementDirectory,
-            .allApplicationsDirectory,
-            .allLibrariesDirectory,
-            .trashDirectory
-        ]
-        
-        let domainMasks: [FileManager.SearchPathDomainMask] = [
-            .userDomainMask,
-            .localDomainMask,
-            .networkDomainMask,
-            .systemDomainMask,
-            .allDomainsMask
-        ]
-        let fileManager = FileManager()
-        for domainMask in domainMasks {
-            for searchPathDirectory in searchPathDirectories {
-                let urls = fileManager.urls(for: searchPathDirectory, in: domainMask)
-                print("searchPath: \(searchPathDirectory), domain: \(domainMask), url: \(urls.first)")
-            }
-        }
-        
+
+    func test_homeDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.homeDirectory())
     }
-    
-    func testPerformanceExample() {
-        print(NSUserName())
-        print(NSFullUserName())
-        print(NSHomeDirectory())
-        print(NSHomeDirectoryForUser("hoge"))
-        print(NSTemporaryDirectory())
-        print(NSOpenStepRootDirectory())
+
+    func test_temporaryDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.temporaryDirectory())
     }
-    
+
+    func test_documentDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.documentDirectory())
+    }
+
+    func test_libraryDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.libraryDirectory())
+    }
+
+    func test_cachesDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.cachesDirectory())
+    }
+
+    func test_documentationDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.documentationDirectory())
+    }
+
+    func test_autosavedInformationDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.autosavedInformationDirectory())
+    }
+
+    func test_applicationSupportDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.applicationSupportDirectory())
+    }
+
+    func test_inputMethodsDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.inputMethodsDirectory())
+    }
+
+    func test_preferencePanesDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.preferencePanesDirectory())
+    }
+
+    func test_applicationDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.applicationDirectory())
+    }
+
+    func test_demoApplicationDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.demoApplicationDirectory())
+    }
+
+    func test_adminApplicationDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.adminApplicationDirectory())
+    }
+
+    func test_developerDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.developerDirectory())
+    }
+
+    func test_developerApplicationDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.developerApplicationDirectory())
+    }
+
+    func test_desktopDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.desktopDirectory())
+    }
+
+    func test_downloadsDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.downloadsDirectory())
+    }
+
+    func test_moviesDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.moviesDirectory())
+    }
+
+    func test_musicDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.musicDirectory())
+    }
+
+    func test_picturesDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.picturesDirectory())
+    }
+
+    func test_sharedPublicDirectory() {
+        XCTAssertNotNil(delegate.directoryManager.sharedPublicDirectory())
+    }
 }

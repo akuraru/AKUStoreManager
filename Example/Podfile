@@ -5,5 +5,5 @@ target 'TestApplication' do
 end
 
 target 'AKUStoreManager_Tests' do
-  pod 'AKUStoreManager', :path => '../'
+  pod 'AKUStoreManager/Tester', :path => '../'
 end

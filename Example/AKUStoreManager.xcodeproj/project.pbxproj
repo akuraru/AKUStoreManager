@@ -176,7 +176,7 @@
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				939068831322154C020FDED5 /* [CP] Embed Pods Frameworks */,
+				14FFE7ABD7B41329C5AAAEE6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -270,6 +270,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		14FFE7ABD7B41329C5AAAEE6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AKUStoreManager-Core-Tester/AKUStoreManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKUStoreManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		763BFF41BBD75E324033B5B3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -308,24 +326,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestApplication/Pods-TestApplication-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		939068831322154C020FDED5 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AKUStoreManager/AKUStoreManager.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AKUStoreManager.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AKUStoreManager_Tests/Pods-AKUStoreManager_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		EE734DAE43A9E9BD891D2594 /* [CP] Check Pods Manifest.lock */ = {

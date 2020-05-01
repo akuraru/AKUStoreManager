@@ -29,14 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '12.0'
+  s.default_subspec = 'Core'
 
-  s.source_files = 'AKUStoreManager/Classes/**/*'
+  s.subspec 'Core' do |a|
+    a.source_files = 'AKUStoreManager/Classes/DirectoryManager.swift'
+  end
   
-  # s.resource_bundles = {
-  #   'AKUStoreManager' => ['AKUStoreManager/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.subspec 'Tester' do |a|
+    a.source_files = 'AKUStoreManager/Classes/DirectoryManagerTester.swift'
+    a.dependency 'AKUStoreManager/Core'
+  end
 end
