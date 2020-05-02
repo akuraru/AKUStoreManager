@@ -27,4 +27,4 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Run tests
       run: |
-        set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/AKUStoreManager.xcworkspace -scheme AKUStoreManager-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+        set -o pipefail && xcodebuild -workspace Example/AKUStoreManager.xcworkspace -scheme AKUStoreManager-Example -configuration Debug OBJROOT=build -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 8' test | xcpretty
